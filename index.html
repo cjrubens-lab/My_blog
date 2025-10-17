@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog Moderne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header avec menu sticky -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <h1><a href="#accueil">MonBlog</a></h1>
+            </div>
+            <input type="checkbox" id="check">
+             <label for="check" class="overlay"></label>
+            <nav class="header__navbar">
+                <ul class="header__ul">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </ul>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bannière principale -->
+    <section class="section__accueil" id="accueil">
+        <div class="accueil__content">
+            <h2>Bienvenue sur Mon Blog</h2>
+            <p>Découvrez des articles passionnants sur divers sujets</p>
+        </div>
+    </section>
+
+    <!-- Section Articles Récents -->
+    <section class="section__articles" id="articles">
+        <div class="articles__container">
+            <h2>Articles Récents</h2>
+            <div class="articles__grid">
+                <!-- Article 1 -->
+                <article class="article__card">
+                    <div class="article__image">
+                        <img src="https://picsum.photos/400/250?random=1" alt="Innovations technologiques">
+                    </div>
+                    <div class="article__content">
+                        <h3>Les dernières innovations tech</h3>
+                        <p>Découvrez les tendances technologiques qui révolutionnent notre quotidien et changent notre façon de travailler.</p>
+                        <a href="#article-tech" class="article__read-more">Lire plus</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article__card">
+                    <div class="article__image">
+                        <img src="https://picsum.photos/400/250?random=2" alt="Destinations de voyage">
+                    </div>
+                    <div class="article__content">
+                        <h3>Top 10 destinations 2024</h3>
+                        <p>Explorez les plus belles destinations à visiter cette année, des endroits paradisiaques aux villes culturelles.</p>
+                        <a href="#article-voyage" class="article__read-more">Lire plus</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article__card">
+                    <div class="article__image">
+                        <img src="https://picsum.photos/400/250?random=3" alt="Routine matinale">
+                    </div>
+                    <div class="article__content">
+                        <h3>Routine matinale productive</h3>
+                        <p>Comment bien commencer sa journée pour être plus productif et atteindre ses objectifs personnels et professionnels.</p>
+                        <a href="#article-lifestyle" class="article__read-more">Lire plus</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article__card">
+                    <div class="article__image">
+                        <img src="https://picsum.photos/400/250?random=4" alt="Cuisine healthy">
+                    </div>
+                    <div class="article__content">
+                        <h3>Recettes healthy faciles</h3>
+                        <p>Des recettes simples et nutritives pour manger sainement sans passer des heures en cuisine.</p>
+                        <a href="#article-cuisine" class="article__read-more">Lire plus</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Catégories Populaires -->
+    <section class="section__categories" id="categories">
+        <div class="categories__container">
+            <h2>Catégories Populaires</h2>
+            <div class="categories__grid">
+                <a href="#tech" class="category__card">Technologie</a>
+                <a href="#voyage" class="category__card">Voyage</a>
+                <a href="#lifestyle" class="category__card">Lifestyle</a>
+                <a href="#culture" class="category__card">Culture</a>
+                <a href="#sante" class="category__card">Santé</a>
+                <a href="#cuisine" class="category__card">Cuisine</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section class="section__about" id="a-propos">
+        <div class="about__container">
+            <h2>À propos de l'auteur</h2>
+            <div class="about__author-content">
+                <div class="about__author-image">
+                    <img src="https://picsum.photos/150/150?random=5" alt="Photo de l'auteur">
+                </div>
+                <div class="about__author-bio">
+                    <p>Bonjour ! Je suis passionné par l'écriture et le partage de connaissances. Sur ce blog, je partage mes découvertes et expériences dans divers domaines comme la technologie, les voyages, et le développement personnel.</p>
+                    <div class="about__social-links">
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                        <a href="https://whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="#a-propos">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Newsletter</h3>
+                    <form class="footer__newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit">S'abonner</button>
+                    </form>
+                    <p class="footer__newsletter-text">Recevez nos derniers articles directement dans votre boîte mail.</p>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2025 Mon Blog. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog Moderne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- Header avec menu sticky -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <h1><a href="#accueil">MonBlog</a></h1>
+            </div>
+            <input type="checkbox" id="check">
+             <label for="check" class="overlay"></label>
+            <nav class="header__navbar">
+                <ul class="header__ul">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </ul>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </nav>
+        </div>
+    </header>
+
+
+     <main class="legal__page">
+
+        <div class="legal__content">
+            <h1>Confidentialité</h1>
+            <section class="legal__section legal__section-marge">
+                <h2>Données collectées</h2>
+                <p>Ce site collecte:</p>
+                <div class="legal__text">
+                    <ul>
+                    <li>Adresses email via la newsletter</li>
+                    <li>Données de navigation (cookies)</li>
+                    <li>Information des formulaires de contact</li>
+                </ul>
+                </div>
+            </section>
+
+            <section class="legal__section">
+                <h2>Utilisation des données</h2>
+                <p>Vos données servent a</p>
+               <div class="legal__text">
+                 <ul>
+                    <li>Vous envoyer la newsletter</li>
+                    <li>Repondre a vos messages</li>
+                    <li>Améliorer le site</li>
+                </ul>
+               </div>
+            </section>
+
+            <section class="legal__section">
+                <h2>Vos données</h2>
+                <p>Vous pouvez a tout moment :</p>
+                <div class="legal__text">
+                    <ul>
+                    <li> Acceder a vos données</li>
+                    <li>Les modifier</li>
+                    <li>Vous desabonner de la newsletter</li>
+                </ul>
+                </div>
+            </section>
+
+             <section class="legal__section">
+                <h2>Cookies</h2>
+                <p>Ce site utilise des cookies pour :</p>
+                <div class="legal__text">
+                    <ul>
+                    <li>Mesurer l'audience</li>
+                    <li>Ameliorer l'experience utilisateur</li>
+                </ul>
+                </div>
+            </section>
+
+        </div>
+
+     </main>
+
+
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="index.html#a-propos">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Newsletter</h3>
+                    <form class="footer__newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit">S'abonner</button>
+                    </form>
+                    <p class="footer__newsletter-text">Recevez nos derniers articles directement dans votre boîte mail.</p>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2025 Mon Blog. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

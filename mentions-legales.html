@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog Moderne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   <!-- Header avec menu sticky -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <h1><a href="#accueil">MonBlog</a></h1>
+            </div>
+            <input type="checkbox" id="check">
+             <label for="check" class="overlay"></label>
+            <nav class="header__navbar">
+                <ul class="header__ul">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </ul>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </nav>
+        </div>
+    </header>
+
+    
+
+   <!-- Contenu principal -->
+    <main class="legal__page">
+
+
+            <div class="legal__content">
+                <h1>Mentions Légales</h1>
+                
+                <p class="last__update">Dernière mise à jour : 1 janvier 2024</p>
+
+                <!-- Section Éditeur -->
+                <section class="legal__section">
+                    <h2>1. Éditeur du Site</h2>
+                    <div class="legal__info">
+                        <p><strong>Nom du site :</strong> MonBlog</p>
+                        <p><strong>Adresse :</strong> https://monblog.com</p>
+                        <p><strong>Propriétaire :</strong> [Ton Nom Complet]</p>
+                        <p><strong>Statut :</strong> Particulier / Auto-entrepreneur</p>
+                        <p><strong>Adresse :</strong> [Ton adresse - Rue, Code postal, Ville]</p>
+                        <p><strong>Email :</strong> contact@monblog.com</p>
+                        <p><strong>Téléphone :</strong> [Ton numéro - optionnel]</p>
+                    </div>
+                </section>
+
+                <!-- Section Hébergement -->
+                <section class="legal__section">
+                    <h2>2. Hébergement</h2>
+                    <div class="legal__info">
+                        <p><strong>Hébergeur :</strong> [Nom de l'hébergeur - ex: GitHub, Netlify, OVH]</p>
+                        <p><strong>Adresse :</strong> [Adresse de l'hébergeur]</p>
+                        <p><strong>Téléphone :</strong> [Numéro de l'hébergeur]</p>
+                        <p><strong>Site web :</strong> https://[site-hebergeur].com</p>
+                    </div>
+                </section>
+
+                <!-- Section Propriété intellectuelle -->
+                <section class="legal__section">
+                    <h2>3. Propriété Intellectuelle</h2>
+                    <div class="legal__text">
+                        <p>L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur et la propriété intellectuelle.</p>
+                        
+                        <h3>Contenu protégé :</h3>
+                        <ul>
+                            <li>Textes et articles originaux</li>
+                            <li>Images et photographies (sauf mention contraire)</li>
+                            <li>Design et charte graphique</li>
+                            <li>Structure et mise en page</li>
+                            <li>Logo et identité visuelle</li>
+                        </ul>
+
+                        <h3>Utilisation autorisée :</h3>
+                        <ul>
+                            <li>Lecture et consultation du contenu</li>
+                            <li>Partage des articles via les boutons de partage sociaux</li>
+                            <li>Citations courtes avec mention de la source</li>
+                        </ul>
+
+                        <h3>Interdictions :</h3>
+                        <ul>
+                            <li>Reproduction massive du contenu</li>
+                            <li>Utilisation commerciale sans autorisation</li>
+                            <li>Modification des contenus</li>
+                            <li>Réutilisation des images</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Section Données personnelles -->
+                <section class="legal__section">
+                    <h2>4. Données Personnelles</h2>
+                    <div class="legal__text">
+                        <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez de droits sur vos données personnelles.</p>
+                        
+                        <h3>Données collectées :</h3>
+                        <ul>
+                            <li>Adresse email (via la newsletter)</li>
+                            <li>Nom et prénom (via le formulaire de contact)</li>
+                            <li>Données de navigation (cookies)</li>
+                            <li>Adresse IP</li>
+                        </ul>
+
+                        <h3>Finalités :</h3>
+                        <ul>
+                            <li>Envoi de la newsletter</li>
+                            <li>Réponse aux demandes de contact</li>
+                            <li>Mesure d'audience</li>
+                            <li>Amélioration du site</li>
+                        </ul>
+
+                        <h3>Vos droits :</h3>
+                        <ul>
+                            <li>Droit d'accès à vos données</li>
+                            <li>Droit de rectification</li>
+                            <li>Droit à l'effacement</li>
+                            <li>Droit à la limitation du traitement</li>
+                            <li>Droit d'opposition</li>
+                            <li>Droit à la portabilité</li>
+                        </ul>
+
+                        <p>Pour exercer vos droits, contactez-nous à : <strong>contact@monblog.com</strong></p>
+                    </div>
+                </section>
+
+                <!-- Section Cookies -->
+                <section class="legal__section">
+                    <h2>5. Politique des Cookies</h2>
+                    <div class="legal__text">
+                        <p>Ce site utilise des cookies pour améliorer l'expérience utilisateur.</p>
+                        
+                        <h3>Cookies utilisés :</h3>
+                        <ul>
+                            <li><strong>Cookies essentiels :</strong> Nécessaires au fonctionnement du site</li>
+                            <li><strong>Cookies analytiques :</strong> Pour mesurer l'audience (Google Analytics)</li>
+                            <li><strong>Cookies de préférences :</strong> Pour mémoriser vos choix</li>
+                        </ul>
+
+                        <h3>Gestion des cookies :</h3>
+                        <p>Vous pouvez désactiver les cookies via les paramètres de votre navigateur :</p>
+                        <ul>
+                            <li>Chrome : Paramètres → Confidentialité et sécurité → Cookies</li>
+                            <li>Firefox : Options → Vie privée et sécurité → Cookies</li>
+                            <li>Safari : Préférences → Confidentialité → Cookies</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Section Liens externes -->
+                <section class="legal__section">
+                    <h2>6. Liens Hypertextes</h2>
+                    <div class="legal__text">
+                        <p>Ce site peut contenir des liens vers d'autres sites web. Nous ne sommes pas responsables :</p>
+                        <ul>
+                            <li>Du contenu de ces sites externes</li>
+                            <li>Des pratiques de confidentialité de ces sites</li>
+                            <li>De la disponibilité de ces sites</li>
+                        </ul>
+                        <p>L'insertion de liens vers ce site est autorisée sans cadre particulier.</p>
+                    </div>
+                </section>
+
+                <!-- Section Responsabilité -->
+                <section class="legal__section">
+                    <h2>7. Limitation de Responsabilité</h2>
+                    <div class="legal__text">
+                        <p>L'éditeur du site ne peut être tenu responsable :</p>
+                        <ul>
+                            <li>Des erreurs ou omissions dans le contenu</li>
+                            <li>Des dommages directs ou indirects liés à l'utilisation du site</li>
+                            <li>De l'interprétation des informations publiées</li>
+                            <li>Des décisions prises sur la base des contenus du site</li>
+                        </ul>
+                        <p>Les articles publiés reflètent l'opinion de leur auteur à un moment donné et peuvent évoluer.</p>
+                    </div>
+                </section>
+
+                <!-- Section Contact -->
+                <section class="legal__section">
+                    <h2>8. Contact</h2>
+                    <div class="legal__info">
+                        <p>Pour toute question relative aux mentions légales :</p>
+                        <p><strong>Email :</strong> contact@monblog.com</p>
+                        <p><strong>Formulaire :</strong> <a href="contact.html">Page de contact</a></p>
+                        <p><strong>Réponse sous :</strong> 7 jours ouvrés maximum</p>
+                    </div>
+                </section>
+
+        </div>
+    </main>
+
+
+
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="index.html#a-propos">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Newsletter</h3>
+                    <form class="footer__newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit">S'abonner</button>
+                    </form>
+                    <p class="footer__newsletter-text">Recevez nos derniers articles directement dans votre boîte mail.</p>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2025 Mon Blog. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog Moderne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header avec menu sticky -->
+    <!-- Header avec menu sticky -->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <h1><a href="#accueil">MonBlog</a></h1>
+            </div>
+            <input type="checkbox" id="check">
+             <label for="check" class="overlay"></label>
+            <nav class="header__navbar">
+                <ul class="header__ul">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </ul>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </nav>
+        </div>
+    </header>
+     <main class="container">
+    <section class="contact__form">
+        <h2>Contactez nous!</h2>
+        <form <form action="https://formspree.io/f/xzzjkyyo" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Votre Email" required>
+            <label for="message">Message:</label>
+            <textarea placeholder="Votre message" name="message" rows="5" required></textarea>
+            <button type="submit" class=" contact__btn btn">Envoyer</button>
+        </form>
+    </section>
+    </section>
+
+        
+            <!-- Autres moyens de contact-->
+            <section class="contact__methods">
+                <h2>🔗 Autres moyens de contact</h2>
+
+                <div class="contact__cards">
+                    <!-- Email -->
+                    <div class="contact__card">
+                        <h3>Email</h3>
+                        <p>c.j.rubens08012006@gmail.com</p>
+                        <a href="mailto:c.j.rubens08012006@gmail.com" class="contact__link"><i class="fa-solid fa-envelope"></i>Envoyer un email</a>
+                    </div>
+
+                    <!-- Téléphone -->
+                    <div class="contact__card">
+                        <h3>Téléphone</h3>
+                        <p>+509 43 77 52 76</p>
+                        <a href="tel:50943775276" class="contact__link"><i class="fa-solid fa-phone"></i>Appeler maintenant</a>
+                    </div>
+
+                    <!-- Réseaux sociaux -->
+                    <div class="contact__card">
+                        <h3>Réseaux sociaux</h3>
+                        <p>Suivez-moi sur les réseaux</p>
+                        <div class="social-contact-links">
+                            <a href="https://x.com/cj_rubens" target="_blank" class="social__link twitter"><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+                            <a href="https://www.instagram.com/cj_rubens" target="_blank" class="social__link instagram"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                            <a href="https://www.linkedin.com/in/cj-rubens" target="_blank" class="social__link linkedin"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <!-- Adresse -->
+                    <div class="contact__card">
+                        <h3>Adresse</h3>
+                        <p>123 Avenue Bon repos<br> Port-Au-Prince Haiti</p>
+                        <a href="https://maps.google.com" target="_blank" class="contact__link"><i class="fa-solid fa-location-dot"></i>Voir sur la carte</a>
+                    </div>
+
+                    <!-- Horaires de disponibilité -->
+                    <div class="contact__card">
+                        <h3>Disponibilité</h3>
+                        <p>Lun - Ven : 9h - 18h<br>Week-end : Sur rendez-vous</p>
+                        <span>Réponse sous 24h</span>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="contact__card">
+                        <h3>WhatsApp</h3>
+                        <p>+509 43 77 52 76</p>
+                        <a href="https://wa.me/50943775276" target="_blank" class="contact__link"><i class="fa-brands fa-whatsapp"></i>Envoyer un message</a>
+                    </div>
+
+                </div>
+
+                <!-- Informations supplémentaires -->
+                <div class="contact__info">
+                    <h3>💡 Informations pratiques</h3>
+                    <div class="info__grid">
+
+                        <div class="info__item">
+                            <strong>🚀 Temps de réponse</strong>
+                            <p>Je m'efforce de répondre à tous les messages dans les 24 heures ouvrables</p>
+                        </div>
+
+                        <div class="info__item">
+                            <strong>📝 Collaboration</strong>
+                            <p>Ouvert aux collaborations et partenariats dans mon domaine</p>
+                        </div>
+
+                        <div class="info__item">
+                            <strong>🎯 Conseils gratuits</strong>
+                            <p>Je donne volontiers des conseils sur les sujets que je maîtrise</p>
+                        </div>
+
+                        <div class="info__item">
+                            <strong>🔧 Support technique</strong>
+                            <p>Pour les problèmes techniques, merci de préciser votre navigateur et appareil</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="index.html#a-propos">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Newsletter</h3>
+                    <form class="footer__newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit">S'abonner</button>
+                    </form>
+                    <p class="footer__newsletter-text">Recevez nos derniers articles directement dans votre boîte mail.</p>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2025 Mon Blog. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
